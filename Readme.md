@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ксения Тупицына](https://up.htmlacademy.ru/htmlcss/19/user/574655).
-* Наставник: [Глеб Цырульников] (https://htmlacademy.ru/profile/id492663).
+* Наставник: [Глеб Цырульников](https://htmlacademy.ru/profile/id492663).
 
 ---
 
