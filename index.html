@@ -87,7 +87,21 @@
         <button>Поиск гостиницы в Седоне</button>
         <img src="img/map.png" alt="Карта окрестностей">
         <div class="modal hotel-search">
-          <!-- здесь будет форма -->
+        <form name="hotel" method="get" action="#">
+          <label for="hotel-checkin">Дата заезда</label>
+          <input id="hotel-checkin" name="hotels-checkin" type="date" placeholder="24 апреля 2017">
+
+          <label for="hotel-checkout">Дата выезда</label>
+          <input id="hotel-checkout" name="hotel-checkout" type="date" placeholder="4 июля 2017">
+
+          <label for="hotel-adults">Взрослые:</label>
+          <input id="hotel-adults" name="hotel-adults" type="number" placeholder="2" min="1">
+
+          <label for="hotel-kids">Дети:</label>
+          <input id="hotel-kids" name="hotel-kids" type="number" placeholder="0">
+
+          <button type="submit">Найти</button>
+        </form>
         <div>
       </section>
 

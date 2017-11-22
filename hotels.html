@@ -24,8 +24,42 @@
       <h1>Гостиницы</h1>
 
       <section class="filters">
-        <h2>Параметры поиска гостиниц</h2>
-        <!-- здесь будет форма -->
+
+            <h2>Параметры поиска гостиниц</h2>
+            <form name="filters" method="get" action="#">
+              <fieldset>
+              <legend>Инфраструктура:</legend>
+              <input type="checkbox" checked name="filters-pool">
+              <label for="filters-pool">Бассейн</label>
+
+              <input type="checkbox" name="filters-parking">
+              <label for="filters-parking">Парковка</label>
+
+              <input type="checkbox" name="filters-wifi">
+              <label for="filters-wifi">Wi-fi</label>
+        </fieldset>
+
+          <fieldset>
+              <legend>Тип жилья:</legend>
+
+              <input type="checkbox" name="filters-hotel" checked>
+              <label for="filters-hotel">Гостиница</label>
+
+              <input type="checkbox" name="filters-motel" checked>
+              <label for="filters-motel">Мотель</label>
+
+              <input type="checkbox" name="filters-apartment" checked>
+              <label for="filters-apartment">Апартаменты</label>
+          </fieldset>
+          <fieldset>
+            <legend>Стоимость в сутки (Р):</legend>
+              <input type="range" min="0" max="10000" step="500" name="filters-price" id="filters-price">
+              <output name="filters-pricemin">0</output>
+              <output name="filters-pricemax">3000</output>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+
       </section>
 
       <section class="search-result">
