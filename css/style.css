@@ -1,0 +1,269 @@
+/* .... COLORS ...................................................................................................... */
+/* .... Common styles ............... */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+}
+.invisible:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  background-color: #fff;
+}
+button,
+input {
+  font: inherit;
+}
+/* .... MAIN MENU ........................................ */
+.main-menu {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  line-height: 26px;
+}
+.main-menu .main-navigation {
+  list-style: none;
+  text-align: center;
+}
+.main-menu .main-navigation a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu .main-navigation a:hover,
+.main-menu .main-navigation a:focus {
+  color: #81b3d2;
+}
+/* .... INDEX INTRO ..............................................*/
+.intro {
+  text-align: center;
+}
+.intro p {
+  color: #333333;
+}
+.intro b {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000;
+}
+/* .... INDEX FEATURES ...........................................*/
+.features .features-list {
+  list-style: none;
+  text-align: center;
+}
+.features .features-list .feature-with-image {
+  background-color: #81b3d2;
+  color: #fff;
+  line-height: 21px;
+}
+.features .features-list .feature-with-image h3 {
+  background-color: #81b3d2;
+  color: #fff;
+  font-size: 21px;
+}
+.features .features-list .feature-with-image .features-advice {
+  list-style: none;
+  background-color: #fff;
+}
+.features .features-list .feature-with-image .features-advice h4 {
+  color: #000;
+  font-size: 21px;
+}
+.features .features-list .feature-with-image .features-advice p {
+  color: #333333;
+}
+.features .features-list .feature-no-image {
+  background-color: #eeeeee;
+}
+.features .features-list .feature-no-image h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+.features .features-list .feature-no-image p {
+  color: #333333;
+}
+/* .... INDEX FORM ...............................................*/
+.interested {
+  text-align: center;
+}
+.interested h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.interested p {
+  line-height: 24px;
+  color: #333333;
+}
+.interested .hotels-search {
+  font: inherit;
+  color: #fff;
+  background-color: #766357;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+}
+.interested .hotels-search:hover,
+.interested .hotels-search:focus {
+  background-color: #604e43;
+}
+.interested .hotels-search:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.interested form label {
+  font-weight: 700;
+}
+.interested form input {
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  padding: 5px;
+  font-weight: 700;
+}
+.interested form input:hover {
+  background-color: #ebebeb;
+  border: 2px solid #ebebeb;
+}
+.interested form input:focus {
+  background-color: #fff;
+  border: 2px solid #eeeeee;
+}
+.interested form .submit {
+  color: #fff;
+  background-color: #81b3d2;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0;
+  border: none;
+}
+.interested form .submit:hover,
+.interested form .submit:focus {
+  background-color: #669ec0;
+}
+.interested form .submit:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+/* .... FOOTER ....................................... */
+.main-footer .hashtags {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000;
+}
+.main-footer .hashtags a {
+  color: #000;
+}
+.main-footer .social-icons-list {
+  list-style: none;
+}
+/* .... HOTELS .............................................*/
+.filters {
+  color: #fff;
+  background-color: #81b3d2;
+}
+.filters fieldset {
+  border: none;
+}
+.filters .show-button {
+  color: #fff;
+  text-transform: uppercase;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 2px;
+}
+.filters .show-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.search-result .found-items {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.search-result h3 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.search-result .sorting {
+  color: #81b3d2;
+}
+.search-result .sorting a {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+  text-decoration-color: #81b3d2;
+  text-decoration-style: dotted;
+}
+.search-result .sorting a:hover,
+.search-result .sorting a:focus {
+  color: #81b3d2;
+}
+.search-result .sorting a:active {
+  text-decoration: none;
+  color: #000;
+}
+.search-result .hotels-results {
+  list-style: none;
+}
+.search-result .hotels-results .hotel h4 {
+  font-size: 21px;
+}
+.search-result .hotels-results .hotel h4 a {
+  color: #000;
+}
+.search-result .hotels-results .hotel h4 a:hover,
+.search-result .hotels-results .hotel h4 a:focus {
+  color: #81b3d2;
+}
+.search-result .hotels-results .hotel h4 a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+.search-result .hotels-results .hotel a {
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 20px;
+}
+.search-result .hotels-results .hotel .more-info {
+  background-color: #81b3d2;
+}
+.search-result .hotels-results .hotel .more-info:hover {
+  background-color: #669ec0;
+}
+.search-result .hotels-results .hotel .more-info:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.search-result .hotels-results .hotel .rating {
+  background-color: #f2f2f2;
+  padding: 5px 20px;
+}
+.search-result .hotels-results .hotel .book-hotel {
+  background-color: #766357;
+}
+.search-result .hotels-results .hotel .book-hotel:hover,
+.search-result .hotels-results .hotel .book-hotel:focus {
+  background-color: #604e43;
+}
+.search-result .hotels-results .hotel .book-hotel:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.search-result .hotels-results .hotel .stars {
+  list-style: none;
+}

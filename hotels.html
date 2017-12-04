@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Добро пожаловать в Седону!</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -57,7 +59,7 @@
               <output name="filters-pricemin">0</output>
               <output name="filters-pricemax">3000</output>
           </fieldset>
-          <button type="submit">Показать</button>
+          <button type="submit" class="show-button">Показать</button>
         </form>
 
       </section>
@@ -79,15 +81,15 @@
         </div>
 
         <h3 class="invisible">Найденные гостиницы</h3>
-        <ul>
+        <ul class="hotels-results">
           <li class="hotel">
             <h4><a href="#">Amara Resort and Spa</a></h4>
             <div>
               <img src="img/hotel1thumb.png">
               <span class="category">Гостиница</span>
               <span class="price">от 4000р.</span>
-              <a href="#" class="button">Подробнее</a>
-              <button>Забронировать</button>
+              <a href="#" class="more-info">Подробнее</a>
+              <a href="#" class="book-hotel">Забронировать</a>
               <span class="rating">Рейтинг: 8.5</span>
 
                 <ul class="stars">
@@ -105,8 +107,8 @@
               <img src="img/hotel2thumb.png">
               <span class="category">Мотель</span>
               <span class="price">от 3000р.</span>
-              <a href="#" class="button">Подробнее</a>
-              <button>Забронировать</button>
+              <a href="#" class="more-info">Подробнее</a>
+              <a href="#" class="book-hotel">Забронировать</a>
               <span class="rating">Рейтинг: 8.9</span>
 
                 <ul class="stars">
@@ -123,8 +125,8 @@
               <img src="img/hotel3thumb.png">
               <span class="category">Апартаменты</span>
               <span class="price">от 2000р.</span>
-              <a href="#" class="button">Подробнее</a>
-              <button>Забронировать</button>
+              <a href="#" class="more-info">Подробнее</a>
+              <a href="#" class="book-hotel">Забронировать</a>
               <span class="rating">Рейтинг: 9.2</span>
 
                 <ul class="stars">
@@ -147,7 +149,7 @@
 
       <div class="social">
         <h3 class="invisible">Социальные сети</h3>
-        <ul>
+        <ul class="social-icons-list">
           <li><a class="social-icon" href="#">Twitter</a></li>
           <li><a class="social-icon" href="#">Facebook</a></li>
           <li><a class="social-icon" href="#">Youtube</a></li>

@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Добро пожаловать в Седону!</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -84,7 +86,7 @@
       <section class="interested">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button>Поиск гостиницы в Седоне</button>
+        <button class="hotels-search">Поиск гостиницы в Седоне</button>
         <img src="img/map.png" alt="Карта окрестностей">
         <div class="modal hotel-search">
         <form name="hotel" method="get" action="#">
@@ -100,7 +102,7 @@
           <label for="hotel-kids">Дети:</label>
           <input id="hotel-kids" name="hotel-kids" type="number" placeholder="0">
 
-          <button type="submit">Найти</button>
+          <button type="submit" class="submit">Найти</button>
         </form>
         <div>
       </section>
@@ -115,7 +117,7 @@
 
       <div class="social">
         <h3 class="invisible">Социальные сети</h3>
-        <ul>
+        <ul class="social-icons-list">
           <li><a class="social-icon" href="#">Twitter</a></li>
           <li><a class="social-icon" href="#">Facebook</a></li>
           <li><a class="social-icon" href="#">Youtube</a></li>
